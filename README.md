@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SensAI
 
-## Getting Started
+🚀 SensAI – AI-Powered Career Development Platform
 
-First, run the development server:
+SensAI is an AI-driven platform designed to transform the way individuals plan and progress in their careers. It provides personalized career guidance, interview practice, resume optimization, and real-time market insights — all in one intuitive platform.
 
-```bash
+✨ Features
+
+AI Career Guidance – Personalized recommendations based on user skills, goals, and industry demand.
+
+Resume Builder – Generates ATS-compliant resumes with grammar checks and keyword optimization.
+
+Interview Coach – Real-time mock interviews powered by NLP & sentiment analysis with instant feedback.
+
+Career Insights – Salary benchmarks, industry trends, and in-demand skills via live APIs.
+
+Admin Dashboard – Analytics, user management, and performance tracking.
+
+📂 Functional Modules
+
+User Module – Authentication, profiles, and session handling.
+
+Resume Builder – AI-powered resume generation and optimization.
+
+Interview Coach – Interactive interview simulations with feedback.
+
+Career Insights – Market trends, salary data, and job demand analytics.
+
+Admin Dashboard – User analytics and system monitoring.
+
+🛠️ Tech Stack
+Frontend
+
+Next.js
+ – React framework for fast, scalable apps
+
+Tailwind CSS
+ – Utility-first styling
+
+Shadcn UI
+ – Pre-built accessible UI components
+
+Backend
+
+Node.js
+ – High-performance runtime
+
+Prisma
+ – Database ORM
+
+Inngest
+ – Event-driven workflows
+
+Database
+
+Neon DB (PostgreSQL)
+ – Cloud-native Postgres
+
+AI & ML
+
+Gemini APIs – Natural language processing & guidance
+
+Fine-tuned AI models – For resume optimization & mock interviews
+
+⚙️ Installation
+- Clone the repository
+git clone https://github.com/your-username/sensai.git
+
+- Navigate into the project
+cd sensai
+
+- Install dependencies
+npm install
+
+- Set up environment variables
+cp .env.example .env
+- Add your API keys, DB credentials, etc. to .env
+
+- Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The app should now be running at http://localhost:3000
+ 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📊 Project Structure
+sensai/
+│── frontend/         # Next.js frontend
+│── backend/          # Node.js backend with Prisma & Inngest
+│── database/         # PostgreSQL schema & migrations
+│── ai/               # AI model integration (Gemini APIs, fine-tuned models)
+│── docs/             # Documentation
+│── .env.example      # Environment variables template
+│── package.json
+│── README.md
 
-## Learn More
+🔮 Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+ Multi-language support for global users
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ AI career path predictor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ Integration with LinkedIn & job boards
 
-## Deploy on Vercel
+ Mobile app version (React Native / Expo)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! To contribute:
+
+Fork the repo
+
+Create a feature branch (git checkout -b feature-xyz)
+
+Commit your changes (git commit -m 'Add feature xyz')
+
+Push to branch (git push origin feature-xyz)
+
+Open a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify it.
+
+💡 Authors & Acknowledgements
+
+Developed with ❤️ using Next.js, Node.js, Prisma, Neon DB, and AI APIs.
